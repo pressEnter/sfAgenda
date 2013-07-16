@@ -1,0 +1,15 @@
+{% extends 'PressenterAgendaBundle::base.html.twig' %}
+{% block maincontent %}
+{{ form_start(search) }}
+    {{ form_errors(search) }}
+
+    <div>
+        {{ form_errors(search.q) }}
+        {{ form_widget(search.q) }}
+    </div>
+
+<input type="submit" />
+
+{{ form_end(search) }}
+{% endblock %}
+

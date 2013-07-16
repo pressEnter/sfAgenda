@@ -1,0 +1,7 @@
+parameters:
+#    pressenter_agenda.example.class: Pressenter\AgendaBundle\Example
+
+services:
+#    pressenter_agenda.example:
+#        class: %pressenter_agenda.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,0 +1,142 @@
+Pressenter\AgendaBundle\Entity\Card:
+  type: entity
+  table: cards
+  id:
+    id:
+      type: integer
+      generator: { strategy: AUTO }
+  fields:
+    name:
+      type: string
+      length: 255
+    title:
+      type: string
+      length: 255
+    company:
+      type: string
+      length: 255
+    birthday:
+      type: datetime
+    alias:
+      type: string
+      length: 255
+    personal_adress_line1:
+      type: string
+      length: 255
+    personal_adress_line2:
+      type: string
+      length: 255
+    personal_adress_line3:
+      type: string
+      length: 255
+    personal_city:
+      type: string
+      length: 255
+    personal_state:
+      type: string
+      length: 255
+    personal_zip_code:
+      type: string
+      length: 255
+    personal_country:
+      type: string
+      length: 255
+    personal_fax:
+      type: string
+      length: 255
+    personal_phone_1:
+      type: string
+      length: 255
+    personal_phone_2:
+      type: string
+      length: 255
+    personal_phone_3:
+      type: string
+      length: 255
+    personal_phone_4:
+      type: string
+      length: 255
+    personal_phone_5:
+      type: string
+      length: 255
+    personal_phone_6:
+      type: string
+      length: 255
+    personal_email_1:
+      type: string
+      length: 255
+    personal_email_2:
+      type: string
+      length: 255
+    personal_email_3:
+      type: string
+      length: 255
+    personal_web:
+      type: string
+      length: 255
+    bussines_adress_line1:
+      type: string
+      length: 255
+    bussines_adress_line2:
+      type: string
+      length: 255
+    bussines_adress_line3:
+      type: string
+      length: 255
+    bussines_city:
+      type: string
+      length: 255
+    bussines_state:
+      type: string
+      length: 255
+    bussines_zip_code:
+      type: string
+      length: 255
+    bussines_country:
+      type: string
+      length: 255
+    bussines_fax:
+      type: string
+      length: 255
+    bussines_phone_1:
+      type: string
+      length: 255
+    bussines_phone_2:
+      type: string
+      length: 255
+    bussines_phone_3:
+      type: string
+      length: 255
+    bussines_phone_4:
+      type: string
+      length: 255
+    bussines_phone_5:
+      type: string
+      length: 255
+    bussines_phone_6:
+      type: string
+      length: 255
+    bussines_email_1:
+      type: string
+      length: 255
+    bussines_email_2:
+      type: string
+      length: 255
+    bussines_email_3:
+      type: string
+      length: 255
+    assistant:
+      type: string
+      length: 255
+    notes:
+      type: text
+    verified:
+      type: boolean
+    created_at:
+      type: datetime
+    created_by:
+      type: integer
+    updated_at:
+      type: datetime
+    updated_by:
+      type: integer

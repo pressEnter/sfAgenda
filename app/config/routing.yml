@@ -1,0 +1,4 @@
+pressenter_agenda:
+    resource: "@PressenterAgendaBundle/Resources/config/routing.yml"
+    prefix:   /
+

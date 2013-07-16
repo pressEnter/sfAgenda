@@ -1,0 +1,4 @@
+_welcome:
+    pattern:  /{q}
+    defaults: { _controller: PressenterAgendaBundle:Default:index, q: '' }
+    
