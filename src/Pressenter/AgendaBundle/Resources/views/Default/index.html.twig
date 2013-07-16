@@ -11,5 +11,19 @@
 <input type="submit" />
 
 {{ form_end(search) }}
+
+    {% if result %}
+    <table>
+        <thead>
+            <tr><th>#</th></tr>
+        </thead>
+        {% for r in result %}
+        <tr>
+            <td>{{r.id}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% endif%}
+    
 {% endblock %}
 

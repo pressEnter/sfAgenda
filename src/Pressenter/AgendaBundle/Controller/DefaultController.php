@@ -8,6 +8,7 @@ class DefaultController extends Controller {
 
     public function indexAction(Request $request) {
 
+        $result= array();
         $search = $this->createFormBuilder()
                 ->add('q', 'text')
                 ->getForm();
@@ -16,8 +17,9 @@ class DefaultController extends Controller {
 
         if ($search->isValid()) {
             $data = $search->getData();
+            
         }
-        return $this->render('PressenterAgendaBundle:Default:index.html.twig', array('search' => $search->createView(),
+        return $this->render('PressenterAgendaBundle:Default:index.html.twig', array('search' => $search->createView(),'result' => $result
         ));
     }
 
