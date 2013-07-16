@@ -1,5 +1,0 @@
-_assetic:
-    resource: .
-    type: assetic
-_app:
-    resource: /home/ragnarok/public_html/sfAgenda/app/config/routing_dev.yml
